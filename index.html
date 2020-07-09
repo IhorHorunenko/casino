@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Казино</title>
+	<style>
+		body {
+			background: #3366CC;
+		}
+		.top_inf {
+			color: red;
+			background: yellow;
+			font-weight: bold;
+			text-align: center;
+		}
+		td {
+			font-size: 14px;
+			text-align: center;
+			border: 2px solid white;
+		}
+		.info {
+			color: white;
+			background: #3399FF;
+		}
+		table {
+			border-collapse: collapse;
+		}
+		p, h2 {
+			color: white;
+			font-size: 20px;
+		}
+		a {
+			text-decoration: none;
+			color: white;
+			border: 1px solid white;
+			padding: 5px 10px;
+			border-radius: 3px;
+			transition: 0.3s;
+		}
+		a:hover {
+			border-radius: 8px;
+		}
+		.bara {
+			margin-left: 23px;
+			margin-top: 23px;
+		}
+	</style>
+</head>
+<body>
+	<table border="1" style="margin: auto;">
+		<tr>
+			<td>
+				<table>
+					<tr>
+						<td class="top_inf">Комбинация</td>
+						<td class="top_inf">Описание</td>
+						<td class="top_inf">Выигрыш</td>
+					</tr>
+					<tr>
+						<td><img src="images/pearl.gif" height="40"><img src="images/pearl.gif" height="40"><img src="images/pearl.gif" height="40"></td>
+						<td class="info">Три жемчужены</td>
+						<td class="info">800 к 1</td>
+					</tr>
+					<tr>
+						<td><img src="images/shark.gif" height="40"><img src="images/shark.gif" height="40"><img src="images/shark.gif" height="40"></td>
+						<td class="info">Три акулы</td>
+						<td class="info">200 к 1</td>
+					</tr>
+					<tr>
+						<td><img src="images/octopus.gif" height="40"><img src="images/octopus.gif" height="40"><img src="images/octopus.gif" height="40"></td>
+						<td class="info">Три осьминога</td>
+						<td class="info">80 к 1</td>
+					</tr>
+					<tr>
+						<td><img src="images/fish.gif" height="40"><img src="images/fish.gif" height="40"><img src="images/fish.gif" height="40"></td>
+						<td class="info">Три рыбы</td>
+						<td class="info">40 к 1</td>
+					</tr>
+					<tr>
+						<td><img src="images/shell.gif" height="40"><img src="images/shell.gif" height="40"><img src="images/shell.gif" height="40"></td>
+						<td class="info">Три ракушки</td>
+						<td class="info">20 к 1</td>
+					</tr>
+					<tr>
+						<td><img src="images/any3x.gif" height="40"><img src="images/star-magenta.gif" height="40"><img src="images/star-red.gif" height="40"></td>
+						<td class="info">Три звезды любого цвета</td>
+						<td class="info">10 к 1</td>
+					</tr>
+					<tr>
+						<td><img src="images/any2x.gif" height="40"><img src="images/star-magenta.gif" height="40"><img src="images/star-red.gif" height="40"></td>
+						<td class="info">Две звезды любого цвета</td>
+						<td class="info">5 к 1</td>
+					</tr>
+					<tr>
+						<td><img src="images/any1x.gif" height="40"><img src="images/star-magenta.gif" height="40"><img src="images/star-red.gif" height="40"></td>
+						<td class="info">Одна звезда любого цвета</td>
+						<td class="info">2 к 1</td>
+					</tr>
+				</table>
+			</td>
+			<td width="150">
+				<div class="moneyUsers">
+					<p>Money</p>
+					<p id="money">0</p>
+				</div>
+				<div class="stavkaUsers">
+					<p>На кону</p>
+					<p id="stavka">0</p>
+				</div>
+				<table border="1" class="bara">
+					<tr>
+						<td class="f1" height="30" width="30"><img src="images/Casino.png" height="30"></td>
+						<td class="f2" width="30"><img src="images/Casino.png" height="30"></td>
+						<td class="f3" width="30"><img src="images/Casino.png" height="30"></td>
+					</tr>
+				</table>
+				<div class="winerUsers">
+					<p>Выигрыш</p>
+					<h2 id="prize">Ничего</h2>
+				</div>
+				<a href="#" class="krut">Крутить</a>
+			</td>
+		</tr>
+	</table>
+	<script src="js/script.js"></script>
+</body>
+</html>
